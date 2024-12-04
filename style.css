@@ -1,0 +1,9 @@
+body {
+    background-image: url(imgs/Edited-Deku-Tree-M8.png);
+    background-position:center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color:white;
+    text-shadow: 0px 0px 7px black;
+}
