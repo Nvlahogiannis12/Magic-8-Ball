@@ -29,8 +29,8 @@ document.getElementById("response-image").src = 'imgs/I_am_Error-M8.png'
   }
   else if (randomNumber == 4) {
     console.log('Cannot predict now')
-eightBall = ''
-document.getElementById("response-image").src = ''
+eightBall = 'Cannot Decide'
+document.getElementById("response-image").src = 'imgs/pjyHvp.gif'
   }
   else if (randomNumber == 5) {
     console.log('Do not count on it')
@@ -57,3 +57,5 @@ document.getElementById("response-image").src = 'imgs/Terrible-Fate-8B.png'
   console.log(eightBall)
   document.getElementById('response-text').innerText = `${userName} has asked the Deku Tree, ${userQuestion} The wise and Great Deku Tree has replied ${eightBall}`
 }
+
+// Change The background solid, first image is deku tree instead of dog, add deku tree photo above start thingamabop.
